@@ -1,0 +1,146 @@
+{
+    "name":  "Douglas Aparecido Silva",
+    "preferredName":  "Douglas Silva",
+    "title":  "Desenvolvedor Full Stack Júnior",
+    "headline":  "React, Node.js, Express, MongoDB, APIs REST, JWT, OAuth, Vite e interfaces responsivas",
+    "location":  "São Paulo, SP, Brasil",
+    "email":  "douglasaparecidodasilva@gmail.com",
+    "phone":  "(11) 96803-4582",
+    "githubUrl":  "https://github.com/Beckerr11",
+    "linkedinUrl":  "https://www.linkedin.com/in/douglassilva11",
+    "instagramUrl":  "https://www.instagram.com/douglassdev_/",
+    "whatsappUrl":  "https://wa.me/5511968034582",
+    "portfolioUrl":  "https://portfolio-landing-premium.vercel.app",
+    "summary":  "Desenvolvedor Full Stack Júnior com experiência prática em React, Node.js, Express e MongoDB. Atuo no desenvolvimento de interfaces responsivas, APIs REST, autenticação com JWT e OAuth, CRUDs completos, dashboards, CRM e áreas autenticadas. Tenho foco em organização de código, experiência do usuário e evolução segura de produtos web publicados.",
+    "keywords":  [
+                     "React",
+                     "JavaScript",
+                     "Node.js",
+                     "Express",
+                     "MongoDB",
+                     "APIs REST",
+                     "JWT",
+                     "OAuth",
+                     "Vite",
+                     "Socket.io",
+                     "Git",
+                     "GitHub",
+                     "HTML",
+                     "CSS",
+                     "Responsive Design",
+                     "CRUD",
+                     "Dashboard",
+                     "SaaS"
+                 ],
+    "skills":  [
+                   {
+                       "group":  "Front-end",
+                       "items":  [
+                                     "React",
+                                     "Vite",
+                                     "JavaScript",
+                                     "HTML",
+                                     "CSS",
+                                     "Interfaces responsivas",
+                                     "Componentização",
+                                     "UX/UI"
+                                 ]
+                   },
+                   {
+                       "group":  "Back-end",
+                       "items":  [
+                                     "Node.js",
+                                     "Express",
+                                     "APIs REST",
+                                     "Autenticação JWT",
+                                     "OAuth",
+                                     "Validação de entrada",
+                                     "Tratamento de erros"
+                                 ]
+                   },
+                   {
+                       "group":  "Banco de dados e tempo real",
+                       "items":  [
+                                     "MongoDB",
+                                     "Modelagem de dados",
+                                     "CRUD",
+                                     "Socket.io",
+                                     "Fluxos autenticados"
+                                 ]
+                   },
+                   {
+                       "group":  "Ferramentas e deploy",
+                       "items":  [
+                                     "Git",
+                                     "GitHub",
+                                     "Vercel",
+                                     "Render",
+                                     "Versionamento",
+                                     "Debugging",
+                                     "Refatoração"
+                                 ]
+                   }
+               ],
+    "experience":  [
+                       {
+                           "title":  "Desenvolvedor Full Stack",
+                           "company":  "Projeto autoral SaaS e portfólio publicado",
+                           "period":  "2025 - atual",
+                           "location":  "Remoto",
+                           "bullets":  [
+                                           "Desenvolvimento de aplicação full stack com landing page, autenticação local e social, dashboard, CRM, inbox, analytics e área do cliente.",
+                                           "Implementação de APIs REST com Node.js e Express, autenticação JWT, controle de rotas protegidas e integração com MongoDB.",
+                                           "Construção de interfaces responsivas em React e Vite com foco em clareza visual, leitura profissional e experiência de produto."
+                                       ]
+                       },
+                       {
+                           "title":  "Projetos práticos em desenvolvimento web",
+                           "company":  "Estudos aplicados e construção de portfólio",
+                           "period":  "2024 - atual",
+                           "location":  "São Paulo, SP",
+                           "bullets":  [
+                                           "Criação e publicação de projetos em JavaScript, Python, HTML e CSS com versionamento no GitHub.",
+                                           "Prática com consumo de APIs, automação, lógica de programação, organização de código e evolução contínua de projetos.",
+                                           "Aplicação de conceitos de front-end, back-end, autenticação e deploy em projetos com uso real."
+                                       ]
+                       }
+                   ],
+    "projects":  [
+                     {
+                         "name":  "Portfolio Landing Premium",
+                         "stack":  "React, Vite, CSS, UX/UI",
+                         "url":  "https://portfolio-landing-premium.vercel.app",
+                         "bullets":  [
+                                         "Vitrine publica com home comercial, servicos, projetos, curriculo ATS e navegacao objetiva.",
+                                         "Narrativa pensada para recrutadores e clientes, com stack, prova visual e CTA claros.",
+                                         "Base pronta para deploy separado e apresentacao de portfolio."
+                                     ]
+                     },
+                     {
+                         "name":  "CRM Comercial Full Stack",
+                         "stack":  "React, CRUD local, PDF, fluxo comercial",
+                         "url":  "https://crm-comercial-fullstack.vercel.app",
+                         "bullets":  [
+                                         "Fluxo comercial com clientes, serviços, propostas, geração de PDF e acompanhamento operacional.",
+                                         "Interface pensada para leitura executiva, operação diária e demonstração publica."
+                                     ]
+                     },
+                     {
+                         "name":  "SaaS Auth Dashboard Demo",
+                         "stack":  "React, auth local, rotas protegidas, dashboard",
+                         "url":  "https://saas-auth-dashboard-demo.vercel.app/login",
+                         "bullets":  [
+                                         "Demo publica com login, cadastro, sessão persistente e área autenticada.",
+                                         "Fluxo limpo para demonstrar base de auth e workspace em portfolio."
+                                     ]
+                     }
+                 ],
+    "education":  [
+                      {
+                          "title":  "Ciência da Computação e estudos complementares",
+                          "institution":  "Graduação em andamento | SENAI e estudos contínuos",
+                          "period":  "Atual",
+                          "details":  "Formação com foco em software, lógica, banco de dados, desenvolvimento web, front-end e fundamentos de automação."
+                      }
+                  ]
+}
