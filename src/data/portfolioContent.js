@@ -70,26 +70,6 @@ export const resumeData = {
       description: "Aprendizado prático com React, Node.js, MongoDB, autenticação, deploy e organização de projetos para GitHub.",
     },
   ],
-  certifications: [
-    {
-      title: "JavaScript Algorithms and Data Structures",
-      issuer: "freeCodeCamp",
-      date: "2024",
-      link: "https://www.freecodecamp.org/certification/beckerr11/javascript-algorithms-and-data-structures",
-    },
-    {
-      title: "Responsive Web Design",
-      issuer: "freeCodeCamp",
-      date: "2024",
-      link: "https://www.freecodecamp.org/certification/beckerr11/responsive-web-design",
-    },
-    {
-      title: "Foundational C# with Microsoft",
-      issuer: "Microsoft / freeCodeCamp",
-      date: "2024",
-      link: "https://www.freecodecamp.org/certification/beckerr11/foundational-c-sharp-with-microsoft",
-    },
-  ],
 }
 
 export const serviceCatalog = [
@@ -270,17 +250,17 @@ export const portfolioSections = [
 export const productModules = [
   {
     title: "Dashboard operacional",
-    description: "Demonstração técnica de painel administrativo com métricas, estados e fluxos de execução.",
+    description: "Painel com prioridades, métricas, contexto de operação e links para execução.",
     to: "/dashboard",
     icon: "dashboard",
-    tag: "Engenharia",
+    tag: "Core",
   },
   {
     title: "CRM comercial",
-    description: "Prova de produto para gestão de clientes e orçamentos, com geração de PDF e lógica comercial.",
+    description: "Clientes, produtos, orçamentos, PDF e compartilhamento para acelerar fechamento.",
     to: "/admin/crm",
     icon: "quote",
-    tag: "Arquitetura",
+    tag: "Receita",
   },
   {
     title: "Inbox e atendimento",

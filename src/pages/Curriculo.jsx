@@ -174,28 +174,13 @@ export default function Curriculo() {
         </article>
 
         <article className="surface section-card">
-          <SectionHeader eyebrow="Formacao" title="Formacao e certificacoes" />
+          <SectionHeader eyebrow="Formacao" title="Formacao e contato" />
 
           <div className="resume-timeline resume-ats-stack">
             {resumeAtsData.education.map((item) => (
               <ResumeAtsEntry
                 bullets={[item.details]}
                 key={`${item.title}-${item.period}`}
-                period={item.period}
-                subtitle={item.institution}
-                title={item.title}
-              />
-            ))}
-          </div>
-
-          <SectionHeader eyebrow="Validacao" title="Certificacoes tecnicas" />
-          <div className="resume-timeline resume-ats-stack">
-            {resumeAtsData.certifications.map((item) => (
-              <ResumeAtsEntry
-                bullets={[item.details]}
-                key={item.title}
-                link={item.url}
-                linkLabel="Ver certificado oficial"
                 period={item.period}
                 subtitle={item.institution}
                 title={item.title}

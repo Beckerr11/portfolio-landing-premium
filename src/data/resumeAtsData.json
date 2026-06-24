@@ -142,28 +142,5 @@
                           "period":  "Atual",
                           "details":  "Formação com foco em software, lógica, banco de dados, desenvolvimento web, front-end e fundamentos de automação."
                       }
-                  ],
-    "certifications": [
-        {
-            "title": "JavaScript Algorithms and Data Structures",
-            "institution": "freeCodeCamp",
-            "period": "2024",
-            "details": "Certificação focada em algoritmos, estruturas de dados e lógica avançada com JavaScript.",
-            "url": "https://www.freecodecamp.org/certification/beckerr11/javascript-algorithms-and-data-structures"
-        },
-        {
-            "title": "Responsive Web Design",
-            "institution": "freeCodeCamp",
-            "period": "2024",
-            "details": "Certificação em design responsivo, HTML5, CSS3 e acessibilidade web.",
-            "url": "https://www.freecodecamp.org/certification/beckerr11/responsive-web-design"
-        },
-        {
-            "title": "Foundational C# with Microsoft",
-            "institution": "Microsoft / freeCodeCamp",
-            "period": "2024",
-            "details": "Certificação em fundamentos de C# desenvolvida em parceria com a Microsoft.",
-            "url": "https://www.freecodecamp.org/certification/beckerr11/foundational-c-sharp-with-microsoft"
-        }
-    ]
+                  ]
 }
