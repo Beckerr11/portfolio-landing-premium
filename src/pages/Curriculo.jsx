@@ -59,6 +59,8 @@ function ResumeContactCard({ title, value, href, icon }) {
 }
 
 export default function Curriculo() {
+  const hasVerifiedCertifications = resumeAtsData.certifications.length > 0
+
   return (
     <main className="page-shell portfolio-page portfolio-reference-page portfolio-editorial-page resume-ats-page">
       <PageHero
@@ -130,7 +132,6 @@ export default function Curriculo() {
 
       <section className="surface section-card">
         <SectionHeader eyebrow="Skills" title="Habilidades principais" />
-
         <div className="portfolio-skill-grid">
           {resumeAtsData.skills.map((group) => (
             <ResumeSkillGroup group={group} key={group.group} />
@@ -140,7 +141,6 @@ export default function Curriculo() {
 
       <section className="surface section-card">
         <SectionHeader eyebrow="Experiencia" title="Experiencia pratica" />
-
         <div className="resume-timeline resume-ats-stack">
           {resumeAtsData.experience.map((item) => (
             <ResumeAtsEntry
@@ -158,7 +158,6 @@ export default function Curriculo() {
       <section className="content-grid two-columns">
         <article className="surface section-card">
           <SectionHeader eyebrow="Projetos" title="Projetos relevantes" />
-
           <div className="resume-timeline resume-ats-stack">
             {resumeAtsData.projects.map((project) => (
               <ResumeAtsEntry
@@ -174,8 +173,7 @@ export default function Curriculo() {
         </article>
 
         <article className="surface section-card">
-          <SectionHeader eyebrow="Formacao" title="Formacao e certificacoes" />
-
+          <SectionHeader eyebrow="Formacao" title={hasVerifiedCertifications ? "Formacao e certificacoes" : "Formacao"} />
           <div className="resume-timeline resume-ats-stack">
             {resumeAtsData.education.map((item) => (
               <ResumeAtsEntry
@@ -188,20 +186,24 @@ export default function Curriculo() {
             ))}
           </div>
 
-          <SectionHeader eyebrow="Validacao" title="Certificacoes tecnicas" />
-          <div className="resume-timeline resume-ats-stack">
-            {resumeAtsData.certifications.map((item) => (
-              <ResumeAtsEntry
-                bullets={[item.details]}
-                key={item.title}
-                link={item.url}
-                linkLabel="Ver certificado oficial"
-                period={item.period}
-                subtitle={item.institution}
-                title={item.title}
-              />
-            ))}
-          </div>
+          {hasVerifiedCertifications ? (
+            <>
+              <SectionHeader eyebrow="Validacao" title="Certificacoes tecnicas verificaveis" />
+              <div className="resume-timeline resume-ats-stack">
+                {resumeAtsData.certifications.map((item) => (
+                  <ResumeAtsEntry
+                    bullets={[item.details]}
+                    key={item.title}
+                    link={item.url}
+                    linkLabel="Ver certificado oficial"
+                    period={item.period}
+                    subtitle={item.institution}
+                    title={item.title}
+                  />
+                ))}
+              </div>
+            </>
+          ) : null}
 
           <div className="portfolio-link-grid compact resume-contact-grid">
             <ResumeContactCard href={`mailto:${resumeAtsData.email}`} icon="mail" title="E-mail" value={resumeAtsData.email} />
