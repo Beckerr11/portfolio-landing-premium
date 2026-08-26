@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router"
 import IconSymbol from "../components/IconSymbol"
 import { AboutCard, HeroIdentityCard, RepositoryCard, SocialProofCard, StackSummaryCard } from "../components/portfolio/PublicPortfolioCards"
 import { aboutHighlights, curatedRepositories, socialProofCards, stackGroups } from "../components/portfolio/publicPortfolioData"

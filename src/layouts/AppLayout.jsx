@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Link, NavLink, Outlet } from "react-router-dom"
+import { Link, NavLink, Outlet } from "react-router"
 import IconSymbol from "../components/IconSymbol"
 import { profile } from "../data/portfolioContent"
 

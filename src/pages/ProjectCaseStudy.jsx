@@ -1,4 +1,4 @@
-import { Link, Navigate, useParams } from "react-router-dom"
+import { Link, Navigate, useParams } from "react-router"
 import IconSymbol from "../components/IconSymbol"
 import TechBadge from "../components/TechBadge"
 import PageHero from "../components/ui/PageHero"

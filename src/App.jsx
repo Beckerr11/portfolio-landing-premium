@@ -1,5 +1,5 @@
 import { Suspense, lazy, useEffect } from "react"
-import { Navigate, Route, Routes } from "react-router-dom"
+import { Navigate, Route, Routes } from "react-router"
 import { profile } from "./data/portfolioContent"
 import AppLayout from "./layouts/AppLayout"
 
