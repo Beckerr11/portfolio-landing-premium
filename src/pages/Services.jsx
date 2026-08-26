@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react"
-import { Link } from "react-router-dom"
+import { Link } from "react-router"
 import IconSymbol from "../components/IconSymbol"
 import TechBadge from "../components/TechBadge"
 import EmptyState from "../components/ui/EmptyState"
