@@ -50,7 +50,7 @@ export default function Portfolio() {
           </div>
         }
         description="Landing pages e sistemas com foco comercial."
-        eyebrow="Douglas Silva | desenvolvimento full stack"
+        eyebrow="Becker | desenvolvimento full stack"
         meta={
           <>
             <span className="mini-pill emphasis">{profile.shortName}</span>

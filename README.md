@@ -1,4 +1,4 @@
-# Douglas Silva | Portfolio & Engineering Showcase
+# Becker | Portfolio & Engineering Showcase
 
 Esta é a camada pública de uma plataforma full-stack integrada, projetada para servir como portfólio profissional e demonstração de engenharia. O projeto conecta uma landing page comercial a um ecossistema autenticado (SaaS Demo), demonstrando competência em todo o ciclo de vida do software.
 

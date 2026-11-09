@@ -66,7 +66,7 @@ export default function Curriculo() {
       <PageHero
         actions={
           <>
-            <a className="button" href="/Douglas_Aparecido_Silva_CV.pdf" rel="noreferrer" target="_blank">
+            <a className="button" href="/Becker_CV.pdf" rel="noreferrer" target="_blank">
               <IconSymbol className="icon-sm" name="resume" />
               Baixar curriculo ATS
             </a>
